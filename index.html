@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+    .app {
+        position: relative;
+        height: 100%;
+        background-color: #FFFDF6;
+    }
+    .appbar {
+        background-color: #19406F;
+        color: #fff;
+        padding: 12px;
+        text-align: center;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.6);
+        z-index: 10;
+    }
+    .memo-list {
+        padding-top: 5px;
+    }
+    .memo-list-item {
+        background-color: #fff;
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+    .memo-list-item h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .memo-list-item p {
+        font-size: 11px;
+        color: #a2a2a2;
+        margin: 0;
+    }
+    .memo-add-button {
+        width: 50px;
+        height: 50px;
+        background-color: #E31676;
+        color: #fff;
+        font-size: 24px;
+        text-align: center;
+        line-height: 48px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.2 );
+    }
+</style>
+    <body>
+        <div class="app">
+            <div class="appbar">
+                MEMOT
+            </div>
+            
+            <div class="memo-list">
+                <div class="memo-list-item">
+                    <h3>講座のアイデア</h3>
+                    <p>
+                        2019/06/12
+                    </p>
+                </div>
+                <div class="memo-list-item">
+                    <h3>買い出し</h3>
+                    <p>
+                        2019/06/12
+                    </p>
+                </div>
+                <div class="memo-list-item">
+                    <h3>講座のアイデア</h3>
+                    <p>
+                        2019/06/12
+                    </p>
+                </div>
+                <div class="memo-list-item">
+                    <h3>レシピ カルボナーラ</h3>
+                    <p>
+                        2019/06/12
+                    </p>
+                </div>
+            </div>
+            <div class="memo-add-button">
+                +
+            </div>
+        </div>
+    </body>
+</html>
